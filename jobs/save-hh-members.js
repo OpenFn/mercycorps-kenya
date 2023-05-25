@@ -105,7 +105,8 @@ upsertMany(
             mom_child_booklet:x.pax_identifier_information.has_motherchildbooklet,
             community_unit:x.pax_identifier_information.the_cu_name,
             
-            comm_frp_mobile:x.pax_identifier_information.chs_hh.question_list_chusla.chs_contact,
+            // TODO: please check where this value lives.
+            // comm_frp_mobile:x.pax_identifier_information.chs_hh.question_list_chusla.chs_contact,
             CHS_hh_number:x.pax_identifier_information.chs_hh.question_list_chusla.CHS_Household_Number,
             
             facility_comm_unit:x.pax_identifier_information.linked_facility_in_cu,
