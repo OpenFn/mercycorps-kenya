@@ -112,23 +112,23 @@ upsertMany(
             
             facility_comm_unit:x.pax_identifier_information.linked_facility_in_cu,
             
-            health_insurance:x.pax_identifier_information.chs_hh.question_list_chusla.do_you_have_health_insurance_cover,
+            // health_insurance:x.pax_identifier_information.chs_hh.question_list_chusla.do_you_have_health_insurance_cover,
             //health_insurance_details:x.pax_identifier_information.PAX_info.middle_name,
             
             //birth_cert:x.pax_identifier_information.PAX_info.middle_name,
-            birth_cert_no:x.pax_identifier_information.chs_hh.question_list_chusla.birth_certificate_no,
+            // birth_cert_no:x.pax_identifier_information.chs_hh.question_list_chusla.birth_certificate_no,
             
             orphan:x.pax_identifier_information.chs_hh.question_list_chusla.orphan,
             
             //other_health_insurance:x.pax_identifier_information.PAX_info.middle_name,
             
-            schooling:x.pax_identifier_information.chs_hh.question_list_chusla.in_school,
+            // schooling:x.pax_identifier_information.chs_hh.question_list_chusla.in_school,
             
-            vitamin_given:x.pax_identifier_information.chs_hh.question_list_chusla.was_vitamin_a_given ||"",
-            penta_3_given:x.pax_identifier_information.chs_hh.question_list_chusla.was_penta_3_given ||"",
-            immunized:x.pax_identifier_information.chs_hh.question_list_chusla.is_a_child_fully_immunized_under_1_yr_old ||"",
+            // vitamin_given:x.pax_identifier_information.chs_hh.question_list_chusla.was_vitamin_a_given ||"",
+            // penta_3_given:x.pax_identifier_information.chs_hh.question_list_chusla.was_penta_3_given ||"",
+            // immunized:x.pax_identifier_information.chs_hh.question_list_chusla.is_a_child_fully_immunized_under_1_yr_old ||"",
             measles_rubella_immunized:x.pax_identifier_information.chs_hh.question_list_chusla.measles_rubella_at_2_years ||"",
-            delivery_place:x.pax_identifier_information.chs_hh.question_list_chusla.state_the_place_of_delivery ||"",
+            // delivery_place:x.pax_identifier_information.chs_hh.question_list_chusla.state_the_place_of_delivery ||"",
             
             
             
