@@ -68,11 +68,8 @@ upsertMany(
     const dataArray = state.data.form.hh_members_registration || [];
     const azureHHmembers = dataArray.map((x, i) => {
       const hhCodes = x.pax_identifier_information.HHID_output.split('HH');
-      console.log(hhCodes);
-
       const hhMemberId = `HH${hhCodes[1]}-${i}`;
-
-      console.log('The ID will be:', hhMemberId);
+      console.log('The hhMemberId is:', hhMemberId);
 
       return {
         //=============================My Loop values:=============
