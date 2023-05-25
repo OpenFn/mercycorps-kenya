@@ -68,7 +68,10 @@ upsertMany(
     state => {
         const dataArray = state.data.form.hh_members_registration || [];
         const azureHHmembers = dataArray.map((x, i) => {
-          const hhMemberId = `${x.pax_identifier_information.HHID_output}-${i}`
+          const [ start, simpleHHcode ] = String.split(x.pax_identifier_information.HHID_output, 'HH')
+          console.log(simpleHHcode);
+          
+          const hhMemberId = `${simpleHHcode}-HH${i}`
           console.log('The ID will be:', hhMemberId);
           
           return {
