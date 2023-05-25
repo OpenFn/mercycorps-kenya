@@ -71,7 +71,7 @@ upsertMany(
           const hhCodes = x.pax_identifier_information.HHID_output.split('HH')
           console.log(hhCodes);
           
-          const hhMemberId = `${hhCodes[1]}-HH${i}`;
+          const hhMemberId = `HH${hhCodes[1]}-${i}`;
           
           console.log('The ID will be:', hhMemberId);
           
